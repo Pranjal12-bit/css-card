@@ -1,0 +1,42 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  padding: 10px;
+}
+.container {
+  width: 500px;
+}
+img {
+  width: 500px;
+}
+h1 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.price-container {
+  display: flex;
+  gap: 30px;
+}
+.amount {
+  font-size: 20px;
+  font-weight: 400;
+}
+.blue {
+  color: blue;
+  font-weight: 900;
+}
+.grey {
+  color: grey;
+
+  text-decoration: line-through;
+}
+.discount {
+  background-color: green;
+  color: white;
+}
+.discount p {
+  padding: 3px;
+}
